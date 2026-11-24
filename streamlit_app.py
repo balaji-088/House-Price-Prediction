@@ -4,7 +4,7 @@ import pandas as pd
 # Load trained model
 model = joblib.load("model.pkl")
 # Application title
-st.title("House Price Prediction System")
+st.title("Updated House Price Prediction System")
 st.write("Enter the house details to predict its price.")
 st.divider()
 # User input
